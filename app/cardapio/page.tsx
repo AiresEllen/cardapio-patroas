@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511959048246";
 
 export default function CardapioPage() {
   const [categories, setCategories] = useState<any[]>([]);
